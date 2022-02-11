@@ -1,0 +1,145 @@
+
+    #resultados-vista{
+        /* background-color: red; */
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    
+    #icono-menu-contenedor {
+        display: none;
+    }
+
+    #main-crearUsuario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30rem;
+        padding-right: 30rem;
+        /* background-color: aqua; */
+    }
+
+    #main-diagnosticoIni{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    #main-diagnosticoFinal{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    #main-docDxInicial{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+
+    #main-docDxFinal{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+
+    #main-usuarios{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    #main-cambiarContrasena{
+        padding-left: 30rem;
+        padding-right: 30rem;
+    }
+
+    
+    /* #area-pdf{
+        padding-left: 8rem;
+        padding-right: 8rem;   
+    } */
+
+    #main-login{
+        padding-left: 32rem;
+        padding-right: 32rem;
+        /* background-color: aqua; */
+    }
+
+    
+
+
+    #menu-vista-escritorio{
+        /* width: 110rem; */
+        display: block;
+        list-style: none;
+        padding: 1rem;
+        text-align: right;
+        /* background-color: red; */
+    }
+
+    #menu-vista-escritorio ul a li{
+        /* width: 110rem; */
+        display: inline-block;
+        list-style: none;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    #menu-vista-escritorio ul a li:hover{
+        text-decoration: underline;
+    }
+
+    #menu-vista-escritorio ul a{
+        /* width: 110rem; */
+       
+        list-style: none;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    #menu-vista-escritorio ul a:hover{
+        text-decoration: underline;
+    }
+
+    #icono-usuario-contenedor{
+        display: block;
+    }
+
+    #resultados-contenedor{
+        padding-right: 10rem;
+        padding-left: 10rem;
+    }
+
+    .idEmpresa{
+        display: block;
+    }
+
+    .ruta-innovacion{
+        /* background-color: red; */
+        padding-left: 9em;
+        padding-right: 14rem;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+  
+    #inicio-form #nit{
+        width: 30%;
+        
+    }   
+
+    #seccion4{
+        page-break-before: always;
+    }
+
+    #myChartComparativaResultado{
+        page-break-after: avoid;
+    }

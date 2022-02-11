@@ -1,0 +1,1243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    height: auto;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.4rem;
+    max-width: 136rem;
+    min-height: 100vh;
+}
+
+header{
+    /* position: fixed; */
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+main{
+    
+    width: 100%;
+    height: auto;
+    /* padding: 1rem; */
+    margin-bottom: 1rem;
+    min-height: 48rem;
+    padding: 1rem;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-top: 1px solid#ccc;
+   
+}
+
+#contenedor-cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    padding: 1rem;
+    background-color: #FF6600;
+}
+
+/* #contenedor-cabecera #usuario{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #5EB319;
+} */
+
+#contenedor-cabecera #logo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1rem;
+    /* background-color: purple; */
+}
+
+#icono-usuario-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 1rem; */
+    width: 15%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#icono-menu-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 1rem; */
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#icono-menu{
+    height: 90%;
+}
+
+#menu-vista-escritorio{
+    display: none;
+    text-decoration: none;
+}
+
+#menu-vista-escritorio a{
+    color: white;
+    font-size: 1.6rem;
+}
+
+#icono-usuario-contenedor a{
+    display: inline-block;
+    height: 100%;
+    /* width: 30%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#icono-usuario{
+    height: 90%;
+}
+
+#logo a{
+    display: block;
+    width: 10%;
+   
+}
+
+#contenedor-cabecera a{
+    width: 100%;
+    text-align: left;
+}
+
+#inicio-contenedor{
+    /* border: 1px solid #5EB319; */
+    padding: 1rem;
+}
+
+#contenedor-tablas{
+    width: 100%;
+}
+
+#empresas-contenedor{
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    height: auto;
+    /* background-color: red; */
+}
+
+
+#contenedor-tablaComparativa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: green;
+    padding-top: 1rem;
+}
+
+
+#resultados-contenedor h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    /* background-color: red; */
+}
+
+#empresas-contenedor h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    /* background-color: red; */
+}
+
+#resultados-contenedor p{
+    width: 100%;
+}
+
+#usuarios-contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#empresas-contenedor h2{
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    text-align: center;
+}
+
+#usuarios-contenedor h2{
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+#tabla-empresas{
+    width: 100%;
+    margin-bottom: 5rem;
+    border-collapse: collapse;
+    /* background-color: red; */
+}
+
+
+
+#tabla-usuarios{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+
+#tabla-rutaInnovacion{
+    border-right: 1px solid #5EB319;
+    border-bottom: 1px solid #5EB319;
+    border-left: 1px solid #5EB319;
+    padding: 1rem;
+    width: 100%;
+    
+}
+
+#graficos{
+    width: 100%;
+}
+
+#graficos h3{
+    border-right: 1px solid #5EB319;
+    border-top: 1px solid #5EB319;
+    border-left: 1px solid #5EB319;
+    margin-bottom: 0;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+#recomendaciones{
+    padding: 1rem;
+    width: 100%;
+    margin-top: 3rem;
+    
+}
+
+
+.rutaInnovacionItem{
+    
+    border-bottom: 1px solid #333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.rutaInnovacionItem-lastItem{
+    padding: 1rem;
+}
+
+#tabla-empresas th, #tabla-empresas td{
+    border: 1px solid gray;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: auto;
+    max-width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+#tabla-comparativa-contenedor{
+    width: 100%;
+   
+}
+
+#tabla-comparativa{
+    width: 100%;
+    border: 1px solid #5EB319;
+    
+}
+
+#tabla-comparativa tr th{
+    font-size: 1.6rem;
+    padding: 0.8rem;
+}
+
+
+
+/* #tabla-empresas td{
+    border: 1px solid gray;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: yellow;
+} */
+
+#tabla-usuarios th, #tabla-usuarios td{
+    border: 1px solid gray;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: auto;
+    max-width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+#tabla-resultados td{
+    /* border: 1px solid gray; */
+    font-size: 1.6rem;
+    padding: 1rem 1rem 1rem 2rem;
+    text-align: left;
+    width: 10rem;
+    max-width: 20rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* border: 1px solid red; */
+} 
+
+#tabla-comparativa td{
+    /* border: 1px solid gray; */
+    font-size: 1.6rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    text-align: center;
+    width: 10rem; 
+    max-width: 20rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+    /* border: 1px solid red;  */
+} 
+
+.tabla-comparativaItem{
+    text-align: left !important;
+}
+
+#login-contenedor{
+    margin-top: 3rem;
+    border: 1px solid #5EB319;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    /* background-color: red; */
+}
+
+#login-contenedor h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#login-contenedor form{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 2px solid #ccc;
+}
+
+#login-form input[type='number'], 
+#login-form input[type='password']{
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+#usuario-form input[type='number'], 
+#usuario-form input[type='text'],
+select{
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+#inicio-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#inicio-form input[type='number']{
+    width: 80%;
+    height: 3rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    /* background-color: red; */
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#submit-login{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    /* background-color: red; */
+}
+
+#submit-login #submit-button:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+#submit-agregar-usuario{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    /* background-color: red; */
+}
+
+#submit-editar-usuario{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 1.5rem;
+    margin-top: 1.5rem; */
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* background-color: red; */
+}
+
+#contenedor-cancelarEditarUsuario{
+    /* background-color: pink; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#submit-agregar-usuario #agregar-usuario:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+#submit-editar-usuario #editar-usuario:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+#submit-login input[type='submit']{
+    padding: 1rem;
+    background-color: #5EB319;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#submit-agregar-usuario input[type='submit']{
+    padding: 1rem;
+    background-color: #5EB319;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#submit-editar-usuario input[type='submit']{
+    padding: 1rem;
+    background-color: #5EB319;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#cancelar-editarUsuario{
+    padding: 1rem;
+    background-color: #d7263d;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#cancelar-editarUsuario:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+#submit-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;  
+    
+}
+
+#submit-inicio input[type='submit']{
+    padding: 1rem;
+    background-color: #5EB319;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#submit-inicio input[type='submit']:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+#iniciar-diagnostico{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#enviar-diagnostico{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+#inicio-contenedor h1{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+#inicio-contenedor h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+#inicio-contenedor h3{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+#inicio-contenedor #menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#usuarios-contenedor #menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu{
+    position: absolute;
+    top: 5.1rem;
+    right: 0;
+    background-color: #333;
+    /* padding: 1rem; */
+    display: none;
+    border-radius: 0.5rem;
+}
+
+#menu ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: white;
+    border-bottom: 1px solid green;
+    /* border-top: 1px solid green; */
+    /* margin-bottom: 1rem; */
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#menu a li{
+    color: white;
+}
+
+#cerrar-menu{
+    font-size: 1.6rem;
+    color: #5EB319 !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+#regresar{
+    display: inline-block;
+    margin-top: 1rem;
+    color: blue;
+    text-align: center;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+#myChartDx2RutaInnovacion{
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+    border: 1px solid #5EB319;
+    padding: 1rem;
+    /* background-color: red; */
+}
+
+
+
+#diagnosticoIni-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    /* border: 1px solid chocolate; */
+}
+
+#diagnosticoIni-container h2{
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 2rem; */
+    padding: 2rem;
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+}
+
+#diagnosticoIni-container h3{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+
+#diagnosticoIni-form{
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+input[type="number"],
+input[type="password"],
+input[type="text"],
+input[type="email"],
+/*input[type="url"],*/
+div,
+select
+{
+    margin-bottom: 1.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    -moz-appearance:textfield; /*Elimina las flechas en los campos tipo number*/
+}
+
+
+textarea{
+    width: 100%;
+    resize: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#intensidadProcesosIDI, #camaraComercio{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-bottom: 2rem;
+}
+
+#camaraComercio{
+    /* border: 2px solid #333; */
+    /* background-color: yellow; */
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    width: 40%;
+}
+
+.ruta-innovacion{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    margin-bottom: 2rem;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.rutaInnovacionItem{
+    padding-left: 1rem;
+}
+
+
+#seccion{
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.pregunta{
+    width: 100%;
+    /* height: 100%; */
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    /* background-color: red; */
+}
+
+.contenidoModelo1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: gray; */
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2rem;
+   }
+
+   .contenidoModelo1 select{
+    width: 35%;
+    height: 100%;
+    margin-top: 0;
+    /* margin-left: 1rem; */
+    /* background-color: pink; */
+}
+
+.contenidoModelo1 input[type='text']{
+    width: 65%;
+    height: 100%;
+    margin-left: 1rem;
+    /* background-color: purple; */
+}
+
+hr{
+    margin-bottom: 1rem;
+}
+
+.seleccionMultiple{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preguntaModelo2{
+    width: 80%;
+    /* height: 100%; */
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    /* background-color: red; */
+}
+
+.preguntaModelo2{
+    width: 80%;
+    /* height: 100%; */
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+    
+    .contenidoModelo2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* background-color: gray; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+   }
+
+   .contenidoModelo2 select{
+    width: 90%;
+    height: 100%;
+    margin-top: 1rem;
+    
+    /* background-color: pink; */
+}
+
+.contenidoModelo2 input[type='text']{
+    width: 90%;
+    height: 100%;
+    /* margin-left: 1rem; */
+    /* background-color: purple; */
+}
+
+#tabla{
+    width: 100%;
+    /* background-color: red; */
+}
+/* 
+#contenedor-tablaComparativa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+} */
+
+#nuevo-usuario{
+    width: 100%;
+    text-align: center;
+    /* padding-right: 1rem; */
+    /* background-color: blue; */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#nuevo-usuario button{
+    padding: 1rem;
+    background-color: #5EB319;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#nuevo-usuario button:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+    
+}
+
+
+ img{
+     cursor: pointer;
+ }
+
+ #separador-seccion{
+     border: 2px solid #5EB319;
+     
+ }
+
+ .nombre-empresa{
+     text-align: left !important;
+ }
+
+ th{
+     background-color: #5EB319;
+     color: white;
+ }
+
+
+ /*Fija un color a las filas impares de la tabla*/
+ #tabla-usuarios tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-usuarios tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+  #tabla-usuarios tr:nth-child(odd):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+  #tabla-usuarios tr:nth-child(even):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+
+  #tabla-empresas tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-empresas tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+  #tabla-empresas tr:nth-child(odd):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+  #tabla-empresas tr:nth-child(even):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+
+  #tabla-resultados tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-resultados tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+  #tabla-resultados tr:nth-child(odd):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+  #tabla-resultados tr:nth-child(even):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+  
+
+
+  #tabla-comparativa tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-comparativa tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+  #tabla-comparativa tr:nth-child(odd):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+  #tabla-comparativa tr:nth-child(even):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+  
+  
+  
+  
+ 
+
+
+ /* Se ocultan algunos componentes para mostrarlos con eventos de click */
+ #siete_uno_dos{
+     display: none;
+ }
+
+ #siete_uno_tres{
+     display: none;
+ }
+
+ #siete_dos_dos{
+     display: none;
+ }
+
+ #siete_dos_tres{
+     display: none;
+ }
+
+ #siete_tres_dos{
+    display: none;
+}
+
+#siete_tres_tres{
+    display: none;
+}
+
+#siete_cuatro_dos{
+    display: none;
+}
+
+#siete_cuatro_tres{
+    display: none;
+}
+
+#siete_cinco_dos{
+    display: none;
+}
+
+#siete_cinco_tres{
+    display: none;
+}
+
+#siete_uno_dos_dx2{
+    display: none;
+}
+
+#siete_uno_tres_dx2{
+    display: none;
+}
+
+#siete_dos_dos_dx2{
+    display: none;
+}
+
+#siete_dos_tres_dx2{
+    display: none;
+}
+
+#siete_tres_dos_dx2{
+   display: none;
+}
+
+#siete_tres_tres_dx2{
+   display: none;
+}
+
+#siete_cuatro_dos_dx2{
+   display: none;
+}
+
+#siete_cuatro_tres_dx2{
+   display: none;
+}
+
+#siete_cinco_dos_dx2{
+   display: none;
+}
+
+#siete_cinco_tres_dx2{
+   display: none;
+}
+
+#boton-imprimirDx1{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    padding-right: 1rem;
+
+}
+
+#imprimir{
+    background-color: #5EB319;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#imprimir:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+.idEmpresa{
+    display: none;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse !important;
+}
+
+.recomendacion-parrafo{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+#seccion2{
+    margin-top: 2rem;
+    
+}
+
+#subtitulo-rutaInnovacionComp{
+    page-break-before: always;
+}
+
+#gestion-recomendacion{
+    page-break-before: always;
+}
+
+#hrSecciones{
+    border: 1px solid green;
+    margin: 3rem 0rem 2rem 0rem;
+}
+
+#seccion3{
+    margin-top: 2rem;
+    
+  }
+
+#titulo-dxIni{
+    /* background-color: tomato; */
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+#subtitulo-rutaInnovacion{
+    /* background-color: tomato; */
+    font-size: 1.6rem;
+    text-align: center;
+    page-break-before: always;
+}
+
+#subtitulo-rutaInnovacionComp{
+    /* background-color: tomato; */
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#subtitulo-recomendaciones{
+    /* background-color: tomato; */
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#contenedor-logo-dxIni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: yellowgreen; */
+}
+
+#contenedor-logo-dxIni img{
+    width: 5rem;
+}
+
+#datosEmpresa-dxIni{
+    /* background-color: cornflowerblue; */
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+#datosEmpresa-dxIni p{
+    margin-bottom: 0.5rem;
+}
+
+#tabla-resultadosDxIni{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#grafico-resultadoDxIni, #grafico-rutaInnovacion{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+
+#tabla-rutaInnovacionDxIni{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#tabla-resultadosDxIni th, #tabla-resultadosDxIni td {
+    font-size: 1.4rem;
+    border: 1px solid#ccc;
+    padding: 0.5rem;
+}
+
+#tabla-resultadosDxIni tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-resultadosDxIni tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+  #tabla-resultadosDxIni tr:nth-child(odd):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+  #tabla-resultadosDxIni tr:nth-child(even):hover {
+    background-color:gray;
+    color: #ffffff;
+  }
+
+.tabla-resultados-item{
+    width: 50%;
+}
+
+.tabla-resultados-itemValor{
+    text-align: center;
+}
+
+
+
+
+#tabla-rutaInnovacionDxIni td {
+    font-size: 1.4rem;
+    border: 1px solid#ccc;
+    padding: 0.5rem;
+}
+
+#tabla-rutaInnovacionDxIni tr:nth-child(odd) {
+    background-color:#fff;
+  }
+
+  #tabla-rutaInnovacionDxIni tr:nth-child(even) {
+    background-color:#d5d8dc;
+  }
+
+.boton-descargar{
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.centrarTexto{
+    text-align: center;
+}
+

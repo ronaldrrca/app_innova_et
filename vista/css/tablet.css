@@ -1,0 +1,156 @@
+
+    #inicio-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;align-items: center;
+        
+    }
+
+    #inicio-form #nit{
+        width: 30%;
+        
+    }   
+
+    main{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #main-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20rem;
+        padding-right: 20rem;
+        /* background-color: aqua; */
+    }
+
+    #main-crearUsuario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20rem;
+        padding-right: 20rem;
+        /* background-color: aqua; */
+    }
+
+
+    #main-diagnosticoIni{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    #main-diagnosticoFinal{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    #main-docDxInicial{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    #main-docDxFinal{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    #main-cambiarContrasena{
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+/* 
+    #area-pdf{
+        padding-left: 10rem;
+        padding-right: 10rem;   
+    } */
+
+    #login-contenedor{
+       margin-top: 2rem;
+       padding-left: 5rem;
+       padding-right: 5rem;
+        /* background-color: red; */
+    }
+
+   
+
+    #cerrar-sesion{
+        /* background-color: red; */
+        width: 100%;
+        text-align: right;
+    }
+
+   
+
+    #resultados-vista{
+        /* background-color: red; */
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #tabla-resultadosDxIni{
+        width: 43%;
+        margin-bottom: 0;
+    }
+    
+    
+    #grafico-resultadoDxIni{
+        width: 53%;
+    }
+    
+    #grafico-rutaInnovacion{
+        width: 53%;
+    }
+    
+    #seccion2, #seccion3{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #seccion2Comp, #seccion3Comp{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #seccion4{
+        padding: 1rem;
+        page-break-before: always;
+    }
+    
+    #tabla-rutaInnovacionDxIni{
+        width: 43%;
+        margin-bottom: 0;
+    }
+
+
+    #myChartComparativaResultado{
+        page-break-after: avoid;
+    }
+
+    #subtitulo-rutaInnovacionComp{
+        page-break-before: avoid;
+    }
+
+    #titulo-dxIni{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+   
+
+   #myChartComparativaResultado{
+       page-break-after: always;
+   }
+
+   #pcPageBreak{
+       page-break-before: always;
+   }
+
+   #gestion-recomendacion{
+    page-break-before:avoid;
+}
+
+#subtitulo-rutaInnovacion{
+    page-break-before:avoid;
+}
